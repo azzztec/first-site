@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Студия Братьев Захаровых</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="index.html" ><img src="img/ZKHstudio_logo.svg" width="52" height="36" alt="ZKHstudio logo PNG black"></a>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_nav_ul" id="header_nav_ul">
+                        <li><a class="header_nav_link" href="index.html">Портфолио</a></li>
+                        <li><a class="header_nav_link active" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER -->
+
+    <main class="contacts_main">
+        <section class="about">
+            <img src="img/contacts/designers.jpg" alt="" class="about_back">
+            <div class="container">
+                <div class="about_title">
+                    Контакты — Хотите крутой дизайн?<br>
+                        <p class="about_title_subtitle">
+                            Мы работаем в сфере дизайна более 3-х лет.<br>
+                            Команда творческих людей с одной целью:<br>
+                            сделать только крутой дизайн!
+                        </p>
+                        <div class="about_form_wrapper">
+                            <form class="about_form" action="send.php" method="POST">
+                                <div class="about_form_inner_wrapper">
+                                    <div class="about_form_inner_wrapper_inputs">
+                                        <input class="form_input form_name" name="name" placeholder="Кто вы?" type="text">
+                                        <input class="form_input form_mail" name="mail" placeholder="Почта" type="email">
+                                    </div>
+                                    <input class="form_input form_tel" name="tel" placeholder="Телефон" type="tel">
+                                    <textarea class="form_text" name="text" id="" cols="30" rows="10" placeholder="Расскажите о вашем проекте и бюджете"></textarea>
+                                    <input class="form_btn" type="submit" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
+                </div>
+                <div class="price_info">
+                    Прайс-лист можно получить по почте<br>
+                    <a class="price_info_link" href="index.html">zkhstudio@gmail.com</a><br>
+                    <a class="price_info_tel" href="tel:+375445790556">+375 (44) 579-05-56</a>
+                </div>
+            </div>
+            <img class='img_contact' src="img/contacts/designers.jpg" alt="">
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer contacts">
+        <div class="container">
+            <div class="footer_wrap">
+                <div class="footer_info_wrap">
+                    <div class="footer_copyryght">
+                        © 2019 <a href="index.html" class="studio_name">Студия братьев Захаровых</a>
+                    </div>
+                    <div class="footer_mail">
+                        <a class="footer_mail_link" href="mailto:zkhstudio@gmail.com">zkhstudio@gmail.com</a>
+                    </div>
+                </div>
+                <div class="developer">
+                    Developed by <a class="developer_link" href="№">Artem Klepcha</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <script src="js/main.js"></script>
+    <script src="js/fromBottomToTop.js"></script>
+    <script src="js/hideHeader.js"></script>
+</body>
+</html>
